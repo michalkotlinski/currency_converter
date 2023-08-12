@@ -22,7 +22,7 @@ fieldset {
   border: none;
 }
 
-.form__field {
+.form__field, .form__input {
   width: 100%;
   text-align: center;
   max-width: 205px;
@@ -39,7 +39,6 @@ fieldset {
   max-width: 150px;
   display: inline-block;
   margin-left: 15px;
-
 }
 
 .form__button {

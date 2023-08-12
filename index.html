@@ -21,29 +21,29 @@
             </legend>
             <p>
                 <label>
-                    <span class="form__labelText"> Kwota PLN*:</span>
-                    <input type="number" placeholder=" wpisz/wybierz ilość zł" step="0.01" min="0.01"
-                        class="form__field js-currency" required>
+                    <span class="form__labelText" for="amount"> Kwota PLN*:</span>
+                    <input class="form__input js-amount" placeholder="wpisz/wybierz ilość zł" required type="number" step="any" min="0.01">
                 </label>
             </p>
             <label>
                 <span class="form__labelText"> Waluta:</span>
-                <select class="form__field js-exchange" name="exchange">
-                    <option value="EUR">&euro; euro EUR</option>
+                <select class="form__field js-amount" name="amount">
+                    <option value="EUR">&euro; Euro EUR</option>
                     <option value="USD">&#36; USA dolar USD </option>
                     <option value="CHF">&#8355; frank szwajcarski CHF</option>
                     <option value="GBP">&#8356; funt brytyjski GBP</option>
-                    <option value="JPY">&#165; jen japoński JPY (100 JPY)</option>
+                    <option value="JPY">&#165; jen JPY (100 jenów)</option>
                 </select>
             </label>
             </p>
             </fieldset>
-            <p class="form__converted js-converted"> SUMA W WYBRANEJ WALUCIE</p>
+            <p class="form__converted result"> SUMA W WYBRANEJ WALUCIE </p>
 
             <p>
-                <button class="form__button js-button">
+                <button class="form__button">
                     <strong>PRZELICZ</strong>
                 </button>
+                
 
         </form>
     </div>
